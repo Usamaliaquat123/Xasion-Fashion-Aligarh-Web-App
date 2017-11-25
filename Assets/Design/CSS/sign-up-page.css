@@ -1,0 +1,221 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+@font-face{
+    font-family:teen-lightimport;
+    src:url("../fonts/teen.ttf")
+}
+
+.header{
+    border-bottom: 1px solid;
+    padding: 2px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #D94255;
+}
+.header p{
+  font-family: 'Segan-Lightimport' ;
+    font-size: 15px;
+/*    opacity: .5;*/
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.header a{
+  font-family: 'Segan-Lightimport' ;
+    font-size: 15px;
+/*    opacity: .5;*/
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.header a:hover{
+    text-decoration: none;
+  color: aliceblue;
+}
+
+.header-sucess{
+     border-bottom: 1px solid;
+    
+    width: 100%;
+    text-align: center;
+   padding: 10px 0px;
+   
+}
+.header-sucess p{
+     font-family:'teen-lightimport';
+    font-size: 12px;
+/*    opacity: .5;*/
+    letter-spacing: 2px;
+    color: white;
+    opacity: .5;
+}
+.header-sucess a{
+     font-family:'teen-lightimport';
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+    opacity: .5;
+}
+.header-sucess a:hover{
+    text-decoration: none;
+  color: white;
+    opacity: .5;
+}
+
+
+.background-image-signup{
+    background-color: #1C1C1E;
+/*    background-image: url(../images/SignUp/1.jpg);*/
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+    
+}
+.text{
+    text-align: center;
+}
+.signup-text{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 120%;
+    letter-spacing: 2px;
+    opacity: .6;
+}
+.line0{
+/*    opacity: .1;    */
+    margin-top: 25px;
+  border: 1px solid #D94255;
+     animation: animation-line0-signup-page 2s;
+}
+
+.input-first-name{
+    margin-top: 50px;
+    border-style: none;
+    background-color: transparent; 
+    color: aliceblue;
+    width: 100%;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 2px;
+}
+.input-last-name{
+ margin-top: 60px;
+    border-style: none;
+    background-color: transparent; 
+    color: aliceblue;
+    width: 100%;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 2px;
+}
+.input-type-email{
+    margin-top: 60px;
+    border-style: none;
+    background-color: transparent; 
+    color: aliceblue;
+    width: 100%;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 2px;
+}
+.input-type-password{
+        margin-top: 60px;
+    border-style: none;
+    background-color: transparent; 
+    color: aliceblue;
+    width: 100%;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 2px;
+}
+input,textarea {
+  width: 100%;
+  background: white no-repeat;
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom, #D94255, #D94255), linear-gradient(to bottom,#3C4F59, #3C4F59);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 2px, 100% 1px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+    /* animation solely on background-size */
+    transition: background-size 0.6s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+input:focus,
+textarea:focus{
+  /* sizes for the 2 images (focus state) */
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+}
+
+.btn-submit-signup{
+    letter-spacing: 2px;
+    font-family: 'Segan-Lightimport';
+    background-color: #D94255;
+    font-size: 15px;
+    opacity: .5;
+    color: white;
+    border-radius: 0;
+    border: 0.5px solid #252525;
+    width: 30%;
+}
+.btn-cancel{
+    letter-spacing: 2px;
+    font-family: 'Segan-Lightimport';
+    background-color: #5CBCF6;
+    font-size: 15px;
+    opacity: .5;
+    color: white;
+    border-radius: 0;
+    border: 0.5px solid #252525;
+    width: 30%;
+}
+.submit-fields{
+    margin-top: 5%;
+    text-align: center;
+ 
+}
+.btn-cancel:hover{
+   color: white;
+}
+.btn-submit-signup:hover{
+    color: white;
+}
+
+.text-field-login{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Segan-Lightimport' ;
+    color: aliceblue;
+    font-size: 80%;
+    opacity: .5;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.login-text-link{
+    color: #D94255;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

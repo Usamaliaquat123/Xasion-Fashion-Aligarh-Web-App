@@ -1,0 +1,58 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../Assets/fonts/Segan-Light.ttf");
+}
+
+.Users-Heading{
+	text-align: center;
+	color: aliceblue;
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	opacity: .7;
+}
+.Nme-cnt{
+    
+	color: aliceblue;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	letter-spacing: 2px;
+	opacity: .7;
+}
+
+.see-desc-usr{
+	color: aliceblue;
+    text-align: center;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	letter-spacing: 2px;
+	font-size: 12px;
+	opacity: .4;
+	
+}
+.type-cnt{
+	color: aliceblue;
+opacity: .7;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.usr-email{
+	color: aliceblue;
+	opacity: .7;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.pwd-usr{
+	color: aliceblue;
+	opacity: .7;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	letter-spacing: 2px;
+	font-size: 12px;
+}

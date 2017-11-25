@@ -1,0 +1,16 @@
+
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+
+.main-heading-content{
+	color: aliceblue;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	opacity: .4;
+	margin-bottom: 30px;
+	font-family:Segan-Lightimport;
+}

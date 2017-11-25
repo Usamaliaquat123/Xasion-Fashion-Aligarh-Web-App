@@ -1,0 +1,31 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../Assets/fonts/Segan-Light.ttf");
+}
+
+.Heading-foldr{
+	color: aliceblue;
+	letter-spacing: 8px;
+	font-size: 25px;
+	text-align: center;
+	font-family:Segan-Lightimport;
+	margin-top: 10px;
+	opacity: .4;
+}
+.folder-heading-cntnt{
+	color: aliceblue;
+	letter-spacing: 4px;
+	font-size: 12px;
+	opacity: .6;
+	font-family:Segan-Lightimport;
+	margin-top: 10px;
+	
+}
+.desc-folder-ech{
+	color: aliceblue;
+	letter-spacing: 2px;
+	font-size: 12px;
+	opacity: .7;
+	font-family:Segan-Lightimport;
+	margin-top: 10px;
+}

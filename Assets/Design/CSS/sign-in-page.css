@@ -1,0 +1,137 @@
+/*Importing fonts*/
+@font-face{
+    font-family:teen-lightimport;
+    src:url("../fonts/teen.ttf")
+}
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+
+
+.header{
+    border-bottom: 1px solid;
+    padding: 2px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #D94255;
+}
+.header p{
+  font-family: 'Segan-Lightimport' ;
+    font-size: 15px;
+/*    opacity: .5;*/
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+/*===================BACKGROUND IMAGE ===========================*/
+
+.background-image-signin{
+    background-color: #1C1C1E;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+}
+/*===================HEADING SETTINGS===========================*/
+.heading-signin{
+    margin-top: 140px;
+    text-align: center;
+    color: white;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 120%;
+    letter-spacing: 7px;
+}
+/*===================LINE1 SETTING===========================*/
+.line0{
+      margin-top: 13px;
+      border: 1px solid #D94255;
+     animation: animation-line0-signup-page 2s;
+/*    opacity: .2;*/
+}
+/*===================INPUTS SETTING===========================*/
+.input-type-email{
+    margin-top: 40px;
+    border-style: none;
+    background-color: #1D1B1A; 
+    color: aliceblue;
+    width: 100%;
+    background-color: transparent; 
+    height: 30px;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 4px;
+/*    opacity: .1;*/
+}
+.input-type-password{
+    margin-top: 60px;
+    border-style: none;
+    height: 30px;
+    background-color: transparent; 
+    color: aliceblue;
+    width: 100%;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 4px;
+}
+input[type="submit"]{
+    padding: 10px;
+    color: #fff;
+    background-color: #252525;
+    margin-top: 0px;
+    border: 0px; 
+    text-decoration: none;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 90%;
+    opacity: .5;
+    letter-spacing: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*===================INPUTS LINE SETTINGS===========================*/
+input,textarea {
+  width: 100%;
+
+  background: white no-repeat;
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom , #D94255, #D94255), linear-gradient(to bottom,black, black);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 2px, 100% 1px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+    /* animation solely on background-size */
+    transition: background-size 0.6s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+input:focus,
+textarea:focus{
+  /* sizes for the 2 images (focus state) */
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+}
+/*===================SUBMIT ALLIGMENT SETTING========================*/
+.submit-field{
+    margin-top: 8%;
+    text-align: center;
+}
+/*===================TEXT ALLIGMENT SETTING========================*/
+.text-fields{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'teen-lightimport' ;
+    color: aliceblue;
+    font-size: 80%;
+    opacity: .5;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.text-fields a{
+    text-decoration: none;
+    color: #D94255;
+    cursor: pointer;
+}
+/*===================END PAGE========================*/

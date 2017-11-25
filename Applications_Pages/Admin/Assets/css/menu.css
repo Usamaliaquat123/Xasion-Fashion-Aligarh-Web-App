@@ -1,0 +1,419 @@
+
+/*--=======================IMPORTING FONTS==========================--*/
+@font-face{
+    font-family:teen-lightimport;
+    src:url("../fonts/teen.ttf")
+}
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+/*--=======================EXTRA SLIDE==========================--*/
+
+.slide-left{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 555px;
+  width: 55px;
+  height: 97.5%;
+opacity: .9;
+  
+}
+
+/*--=======================ADMIN-LOGO==============================--*/
+.background-admin-logo {
+  background-color: #111111;
+  position: absolute;
+  margin-top: 55px;
+  width: 55px;
+  height: 55px;
+    opacity: .9;
+}
+.admin-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+
+}
+/*--=======================CHART-LOGO==============================--*/
+.background-chart-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 105px;
+  width: 55px;
+  height: 50px;
+    opacity: .9;
+  transition: width 1s;
+}
+.para-chart-logo{
+    margin-left: 30%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-chart-logo:hover{
+    width: 250px;
+}
+.background-chart-logo:hover .chart-logo{
+    opacity: 1;
+}
+.background-chart-logo:hover .para-chart-logo{
+    opacity: 1;
+}
+.chart-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.chart-logo:hover{
+    opacity: 1;
+    text-emphasis-color: aqua;
+}
+/*--=======================LOCKER-LOGO==============================--*/
+.background-locker-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 155px;
+  width: 55px;
+  height: 50px;
+    opacity: .9;
+  transition: width 1s;
+}
+.para-locker-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-locker-logo:hover{
+    width: 250px;
+}
+.background-locker-logo:hover .locker-logo{
+    opacity: 1;
+  
+}
+.background-locker-logo:hover .para-locker-logo{
+    opacity: 1;
+}
+.locker-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.locker-logo:hover{
+   opacity: 1; 
+}
+/*--=======================USERS-LOGO==============================--*/
+.background-users-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 205px;
+  width: 55px;
+    opacity: .9;
+  height: 50px;
+  transition: width 1s;
+}
+.para-users-logo{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.background-users-logo:hover{
+    width: 250px;
+}
+.background-users-logo:hover .users-logo{
+    opacity: 1;
+}
+.background-users-logo:hover .para-users-logo{
+    opacity: 1;
+}
+.users-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.users-logo:hover{
+    opacity: 1;
+}
+/*--=======================IMAGES-LOGO==============================--*/
+.background-images-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 255px;
+  width: 55px;
+  height: 50px;
+    opacity: .9;
+    transition: width 1s;
+}
+
+.para-images-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-images-logo:hover{
+     width: 250px;
+}
+.background-images-logo:hover .images-logo{
+    opacity: 1;
+}
+.background-images-logo:hover .para-images-logo{
+    opacity: 1;
+}
+.images-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.images-logo:hover{
+    opacity: 1;
+}
+/*--=======================DATABASES-LOGO===========================--*/
+.background-database-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 305px;
+  width: 55px;
+  height: 50px;
+    opacity: .9;
+ transition: width 1s;
+}
+.para-database-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-database-logo:hover{
+     width: 250px;
+}
+.background-database-logo:hover .database-logo{
+    opacity: 1;
+}
+.background-database-logo:hover .para-database-logo{
+    opacity: 1;
+}
+.database-logo{
+     position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}.database-logo:hover{
+    opacity: 1;
+}
+/*--=======================PAGES-LOGO==============================--*/
+
+.background-pages-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 355px;
+  width: 55px;
+    opacity: .9;
+  height: 50px;
+    transition: width 1s;
+}
+.para-pages-logo{
+     text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-pages-logo:hover{
+    width: 250px;
+}
+.background-pages-logo:hover .pages-logo{
+    opacity: 1;
+}
+.background-pages-logo:hover .para-pages-logo{
+    opacity: 1;
+}
+.pages-logo{
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.pages-logo:hover{
+    opacity: 1;
+}
+/*--=======================FOLDER-LOGO==============================--*/
+.background-folder-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 405px;
+  width: 55px;
+    opacity: .9;
+  height: 50px;
+    transition: width 1s;
+}
+.para-folder-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-folder-logo:hover{
+    width: 250px;
+}
+.background-folder-logo:hover .folder-logo{
+    opacity: 1;
+}
+.background-folder-logo:hover .para-folder-logo{
+    opacity: 1;
+}
+.folder-logo{
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.folder-logo:hover{
+    opacity: 1;
+}
+/*--=======================TRASH-LOGO==============================--*/
+.background-trash-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 455px;
+  width: 55px;
+    opacity: .9;
+  height: 50px;
+    transition: width 1s;
+}
+.para-trash-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-trash-logo:hover{
+    width: 250px;
+}
+.background-trash-logo:hover .trash-logo{
+    opacity: 1;
+}
+.background-trash-logo:hover .para-trash-logo{
+    opacity: 1;
+}
+.trash-logo{
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+    transition: opacity 1s;
+}
+.trash-logo:hover{
+    opacity: 1;
+}
+/*--=======================SETTINGS-LOGO============================--*/
+.background-settings-logo{
+  background-color: #111111;
+  position: absolute;
+  margin-top: 505px;
+  width: 55px;
+  height: 50px;
+    opacity: .9;
+    transition: width 1s;
+}
+.para-settings-logo{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    overflow: hidden;
+    font-family: Segan-Lightimport; 
+    font-size: 12px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background-settings-logo:hover{
+     width: 250px;
+}
+.background-settings-logo:hover .settings-logo{
+    opacity: 1;
+}
+.background-settings-logo:hover .para-settings-logo{
+    opacity: 1;
+}
+.settings-logo{
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    top: 15px;
+    opacity: .5;
+     transition: opacity 1s;
+}
+.settings-logo:hover{
+    opacity: 1;
+}

@@ -1,0 +1,210 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+.background-image-cover{
+	background-image: url(../images/contentAdmin/Watch/background.jpg.png);
+    max-width: 100%;
+/*    margin: 0;*/
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    min-height: 300px;
+}
+.Heading-shirt
+{
+	text-align: center;
+	color: aliceblue;
+	letter-spacing: 3px;
+	font-size: 20px;
+	 font-family:Segan-Lightimport;
+	margin-top: 10px;
+	opacity: .5;
+}
+.heading-of-add-product{
+	text-align: center;
+	color: aliceblue;
+	letter-spacing: 3px;
+	font-size: 15px;
+	 font-family:Segan-Lightimport;
+	margin-top: 30px;
+	opacity: .5;
+}
+.product-items{
+	text-align: center;
+}
+.product-name{
+	display: inline-block;
+}
+.product-items{
+	text-align: left;
+	color: aliceblue;
+	letter-spacing: 2px;
+	font-size: 15px;
+	 font-family:Segan-Lightimport;
+	opacity: .5;
+}
+input[type="text"]{
+	background-color: #0F0F0F;
+	border-style: none;
+	width: 340px;
+	margin-left: 20px;
+	height: 30px;
+	color: aliceblue;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding-left: 10px;
+	 font-family:Segan-Lightimport;
+}
+.product-price{
+	display: inline-block;
+}
+input[type="number"]{
+	background-color: #0F0F0F;
+	border-style: none;
+	width: 250px;
+	margin-left: 10px;
+	height: 30px;
+	color: aliceblue;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding-left: 10px;
+	 font-family:Segan-Lightimport;
+}
+
+
+input[type="shirts"]{
+	background-color: #0F0F0F;
+	border-style: none;
+	width: 100px;
+	margin-left: 10px;
+	height: 30px;
+	color: aliceblue;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding-left: 10px;
+	 font-family:Segan-Lightimport;
+}
+
+input[type="file"]{
+	
+}
+
+
+
+
+
+.plus-sign {
+
+
+
+}
+.images{
+	margin-top: 60px;
+}
+
+.image-box {
+	
+	text-align: center;
+  border-width: 3.083px;
+  border-color: aliceblue;
+  border-style: dashed;
+  border-radius: 10px;
+ margin-top: 20px;
+  width: 160px;
+  height: 100px;
+	opacity: .4;
+	
+}
+.sign{
+	 font-size: 80px;
+	  font-family:Segan-Lightimport;
+	  color: aliceblue;
+	text-align: center;
+	margin-top: -3px;
+	 opacity: .4;
+}
+.sign:hover{
+	opacity: 10;
+	cursor: pointer;
+}
+
+/*
+.image-box2{
+ float: left;
+ border-width: 3.083px;
+  border-color: rgb(37, 37, 37);
+  border-style: solid;
+  border-radius: 10px;
+	margin-left: 10px;
+  width: 160px;
+  height: 100px;
+}
+*/
+/*============================IMAGE 3 UPLOAD =================================*/ 
+/*
+.image-box3{
+	float: left;
+  border-width: 3.083px;
+  border-color: rgb(37, 37, 37);
+  border-style: solid;
+  border-radius: 10px;
+ margin-left: 10px;
+  width: 160px;
+  height: 100px;
+ 
+}
+*/
+
+
+
+.product-Description{
+	margin-top: 40px;
+}
+textarea{
+	background-color: #0F0F0F;
+	border-style: none;
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family:Segan-Lightimport;
+}
+.btn-new-items-add{
+	margin-top: 10px;
+
+}
+.btn-new-items-add > input[type="submit"]{
+	width: 100%;
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-family:Segan-Lightimport;
+}
+
+.Note-add-item{
+	margin-top: 10px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family:Segan-Lightimport;
+	color: aliceblue;
+}
+.para-DandG{
+    color: aliceblue;
+    text-align: center;
+     font-family:Segan-Lightimport;
+    letter-spacing: 3px;
+    opacity: .7;
+
+}
+.Heading-products-main{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 22px;
+	letter-spacing: 8px;
+	font-family:Segan-Lightimport;
+	color: aliceblue;
+	opacity: .6;
+	
+}

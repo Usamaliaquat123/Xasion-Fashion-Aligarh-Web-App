@@ -1,0 +1,857 @@
+/* Importing Fonts */
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+/*----------------------------------BACKGROUNG-IMAGE SECTION-------------------------------*/
+
+#background-home-image{
+    background-image: url(../images/1.png);
+    max-width: 100;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+	}
+
+#background-home-image2{
+    
+    background-image: url(../images/2.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+	}
+#background-home-image3{
+    background-image: url(../images/3.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+#background-home-image4{
+    background-image: url(../images/4.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+#background-home-image5{
+    background-image: url(../images/5.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+#background-home-image6{
+    background-image: url(../images/6.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+#background-home-image7{
+    background-image: url(../images/7.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+#background-home-image8{
+    background-image: url(../images/8.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+.background-home-image9{
+    background-image: url(../images/9.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 650px;
+}
+
+.backgroubd-image10{
+    background-image: url(../images/10.png);
+    height: 50%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+   min-height: 100px;
+}
+.background-home-image11{
+    background-image: url(../images/11.png);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+/*	background-attachment: fixed;*/
+    background-position: center;
+    min-height: 650px;
+}
+/*=================================SLIDE ONE===========================================*/
+
+/*----------------------------------FIRST SLIDE CONTENT SECTION-----------------------------*/
+
+
+.home-heading-text{
+    color: #605E5C;
+    font-family: 'Segan-Lightimport' ;
+    font-size: 200%;
+    margin-top: 25%;
+    margin-left: 56px;
+    letter-spacing: 10px;
+/*    opacity: 0.4; */
+}
+.Top-content{
+    color: #dfd6d6;
+    font-family: 'Segan-Lightimport';
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.home-content-xasion-phone{
+     color: #dfd6d6;
+     font-family: 'Segan-Lightimport' ;
+     font-size: 85%;
+    margin-top: 5px;
+    text-align: center;
+/*     margin-left: 0px;*/
+     letter-spacing: 5px;
+}
+.Buy-items-content{
+    color: #dfd6d6;
+     font-family: 'Segan-Lightimport' ;
+     font-size: 80%;
+    margin-top: 5px;
+    text-align: center;
+     letter-spacing: 4px;
+}
+
+
+/*--------------------------------BUTTONS CONTENT---------------------------------------- */
+a{
+    text-decoration: none;
+}
+.btn-first{
+    border: 0.5px solid #252525;
+    margin-top: 50px;
+    width: 180px;
+font-family: 'Segan-Lightimport' ;
+    color: #A49E9D;
+    border-radius: 0;
+}
+.btn-first:hover{
+     color:  #DFD6D6;
+}
+.btn-second:hover{
+     color:  #DFD6D6;
+}
+.btn-third:hover{
+     color:  #DFD6D6;
+}
+.btn-second{
+     border: 0.5px solid #252525;
+     margin-top: 30px;
+     width: 180px;
+     color: #A49E9D;
+      font-family: 'Segan-Lightimport' ;
+     border-radius: 0;
+}
+
+
+.btn-third{
+     border: 0.5px solid #252525;
+    margin-top: 30px;
+    width: 180px;
+    color: #A49E9D;
+        font-family: 'Segan-Lightimport' ;
+     border-radius: 0;
+}
+        
+/* Home text align buttons center */    
+.btns-adjust-responsive{
+    text-align: center;
+}
+/*-----------------------------------END FIRST SLIDE -------------------------------------*/
+
+
+/*=================================SLIDE TWO==============================================*/
+
+/*-------------------------SECOND SLIDE CONTENT SECTION-----------------------------------*/
+.head-spring-summer{
+    margin-top: 110px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+.title-buy-50-disc{
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.content-paragraph{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    letter-spacing: 1px;
+}
+.buy-now-btn{
+   
+    margin-top: 20px;
+  
+     border: 0.5px solid #939393;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    color: #939393;
+    width: 200px;
+}
+.buy-now-btn:hover{
+    color: #CDC5C4;
+}
+.btn-responsive-buy-now{
+    text-align: center;
+}
+/*================================ENDING SLIDE SECOND========================================*/
+
+/*==================================SLIDER THREE============================================*/
+.heading-design-print{
+      margin-top: 110px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+.content-text{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 15px;
+    letter-spacing: 1px;
+   
+}
+.btn-control-third-slide{
+    text-align: center;
+}
+/*================================ENDING SLIDE THREE========================================*/
+
+/*==================================SLIDER FOUR============================================*/
+.Heading-content4{
+     margin-top: 80px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+.fifty-percent{
+     text-align: center;
+    margin-top: 30px;
+    color: #E5EAF1;
+    font-family: Segan-Lightimport;
+    font-size: 60px;
+    letter-spacing: 7px;
+    color: #C2BEBE;
+}
+.discount{                                    
+     text-align: center;
+    margin-top: 30px;
+    color: #E5EAF1;
+    font-family: Segan-Lightimport;
+    font-size: 20px;
+    letter-spacing: 7px;
+    color: #C2BEBE;
+}
+.fifty-percent:hover{
+    color: #E5EAF1;
+}
+.discount:hover{
+    color: #E5EAF1;
+}
+.second-content-slide-4{
+    text-align: center;
+}
+.third-line-para-slide-4{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.button-control-slide-four{
+    text-align: center;
+}
+.btn-slide4-shop-now{
+    border: 0.5px solid #E5EAF1;
+   
+}
+.btn-slide4-shop-now:hover{
+    color: #E5EAF1;
+}
+/*================================ENDING SLIDE FOUR========================================*/
+
+/*==================================SLIDER FIVE============================================*/
+
+.shirt-image-categories{
+    margin-top: 30px;
+}
+.shoes-image-categories{
+     margin-top: 57px;   
+}
+.content-text-slide-5{
+      margin-top: 15px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 30px;
+    letter-spacing: 7px;
+    opacity: 0.7;
+}
+.watch-image-categories{
+    margin-top: 30px;
+}
+.jeans-pants-image-categorie{
+    margin-top: 57px;
+}
+.sweater-winter-categorie{
+    margin-top: 30px;
+}
+.mens-kit-categorie{
+    margin-top: 57px;
+}
+
+.see-more-option{
+     color: #C2BEBE;
+    text-align: center;
+     font-family: Segan-Lightimport;
+   font-size: 12px;
+    letter-spacing: 4px;
+ 
+    
+    font-family: Segan-Lightimport;
+}
+.text-color-option{
+   top: 20px;
+      color: #C2BEBE;
+}
+.text-color-option:hover{
+      color: #C2BEBE;
+}
+
+/*================================ENDING SLIDE FIVE========================================*/
+
+/*==================================SLIDER SIX============================================*/
+div.our-developers-box{
+    text-align: center;
+    margin-top: 40px;
+       margin-left: 13%;
+   
+}
+div.our-designers-box{
+    text-align: center;
+   margin-left: 13%;
+    margin-top: 40px;
+    
+   
+}
+.community-text-meet-up{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 30px;
+    letter-spacing: 7px;
+    opacity: .7;
+}
+.developer-text{
+     text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+
+.designer-text{
+     text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+/*================================ENDING SLIDE SIX========================================*/
+
+/*==================================SLIDER SEVEN============================================*/
+.heading-text-slide-7{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 20px;
+    letter-spacing: 7px;
+    opacity: .7;
+}
+.text-slide7-paragraph{
+    text-align: center;
+    margin-top: 130px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: .7;
+}
+/*================================ENDING SLIDE SEVEN========================================*/
+
+/*==================================SLIDER EIGHT============================================*/
+.text-heading-slide8{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 20px;
+    letter-spacing: 7px;
+    opacity: .7;
+}
+.btn-see-our-address-in-google-map{
+   text-align: center;
+}
+.text-slide8-paragraph{
+    text-align: center;
+    margin-top: 130px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: .7;
+}
+
+.btn-see-map{
+   margin-top: 50px;
+   border: 0.5px solid #939393;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    color: #939393;
+   
+    width: 200px;}
+.btn-see-map:hover{
+    color: #939393;
+}
+.google-map{
+    margin-top: 100px;
+    opacity: .4;
+}
+/*================================ENDING SLIDE EIGHT========================================*/
+
+/*==================================SLIDER NINE============================================*/
+div.logo-address{
+   text-align: center; 
+}
+div.logo-phone{
+    text-align: center;
+}
+div.logo-contact{
+    text-align: center;
+}
+div.logo-working-hours{
+    text-align: center;
+}
+.text-heading-about-us-slide-9{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 20px;
+    letter-spacing: 7px;
+    opacity: .7;
+}
+.margin-of-logos{
+    margin-top: 50px;
+}
+.address-text-slide-9{
+    text-align: center;
+    margin-top: 5px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+.address-heading-text-slide9{
+    margin-top: 4px;
+    text-align: center;
+   font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+
+}
+.phone-heading-text-slide-9{
+      margin-top: 4px;
+    text-align: center;
+   font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.phone-text-slide9{
+     text-align: center;
+    margin-top: 5px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+.contact-heading-slide9{
+    margin-top: 4px;
+    text-align: center;
+   font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.contact-text-slide-9{
+     text-align: center;
+    margin-top: 5px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: .7;
+}
+.heading-working-hours{
+       margin-top: 4px;
+    text-align: center;
+   font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+.hour-text-slide9{
+     text-align: center;
+    margin-top: 5px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .7;
+}
+/*------------------------Message to Comapny------------------------*/
+
+
+.margin-slide-9-message{
+    margin-top: 20px;
+}
+div.Name-textbox-slide-9{
+    text-align: center;
+}
+.Name-company-snd{
+    background-color: #191828;
+/*    opacity: .6;*/
+    border-style: none;
+    font-size:15px;
+    width: 250px;
+    height: 35px;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport;
+    
+}
+.form-message-text{
+      background-color: #191828;
+/*    opacity: .5;*/
+    border-style: none;
+    font-size:15px;
+    width: 100%;
+    height: 200px;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport;  
+}
+.submit-btn{
+    margin-top: 20px;
+     opacity: .5;
+    
+      color:aliceblue;
+    letter-spacing: 3px;
+
+    font-family: Segan-Lightimport; 
+}
+.submit-btn:hover{
+    color:aliceblue;
+}
+/*================================ENDING SLIDE NINE========================================*/
+
+/*==================================SLIDER TEN============================================*/
+.thanks-subscribers{
+    text-align: center;
+    margin-top: 2px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 13px;
+    letter-spacing: 3px;
+    opacity: .7;
+}
+.News-letter-head{
+    margin-top: 25px;
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 20px;
+    letter-spacing: 7px;
+    opacity: .7;
+}
+.News-letter-para{
+/*     text-align: center;*/
+/*    margin-top: px;*/
+    font-family: Segan-Lightimport;
+    color: #C2BEBE;
+    font-size: 11px;
+    letter-spacing: 2px;
+    opacity: .4;
+}
+.margin-to-textbox-subscribe{
+    margin-top: 50px;
+    text-align: center;
+
+  
+}
+.textbox-of-subsrcibe{
+    opacity: .4;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 11px;
+    letter-spacing: 2px;
+    width: 250px;
+    background-color: transparent;
+    border-color: aliceblue;
+    border-radius: 5px;
+    border-style: inset;
+    height: 30px;
+}
+
+.subscribe-btn-of-slide-10{
+  margin-top: 50px;
+    text-align: center;
+    
+}
+.subscribe-btn{
+    opacity: .5;
+    background-color: transparent;
+    color:aliceblue;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport; 
+    border-color: aliceblue;
+}
+.subscribe-btn:hover{
+    color: seashell;
+}
+/*================================ENDING SLIDE TEN========================================*/
+
+/*==================================SLIDER ELEVEN============================================*/
+.contact-heading-slide11{
+    margin-top: 50px;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+.email-us-heading{
+      margin-top: 50px;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.Newsletter-heading{
+    margin-top: 50px;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.logo-and-text-of-phone-slide11{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 9px;
+    opacity: .5;
+    letter-spacing: 3px;
+}
+.logo-and-text-of-fax-slide11{
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 9px;
+    opacity: .5;
+    letter-spacing: 3px;
+}
+.logo-and-text-of-email-slide11{
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 9px;
+    opacity: .5;
+    letter-spacing: 1px;
+}
+.logo-and-text-of-website-slide11{
+    text-align: center;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 10px;
+    opacity: .5;
+    letter-spacing: 0px;
+}
+/*--------------------line2-------------------------*/
+.logo-and-text-of-location-slide11{
+    margin-top: 120px;
+    text-align: left;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 9px;
+    opacity: .5;
+    letter-spacing: 1px;
+}
+/*-----------------Ending Line2---------------------*/
+/*=================Starting Line3 Email us==========*/
+.logo-and-text-of-emailus-slide11{
+    text-align: center;
+    margin-top: 35px;
+}
+.name-of-slide11{
+    margin-top: 30px; 
+    border-style: none;
+    background-color: #191828;
+    border-radius: 3px;
+    height: 30px;
+    width: 100%;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport; 
+}
+.email-of-slide11-emailus-line{
+    margin-top: 10px; 
+    border-style: none;
+    background-color: #191828;
+    border-radius: 3px;
+    height: 30px;
+    width: 100%;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport; 
+}
+.textarea-of-slide11-line-emailus{
+    margin-top: 20px;
+    background-color: #191828;
+    border-style: none;
+    font-size:15px;
+    width: 100%;
+    height: 200px;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport;
+}
+.btn-slide11-line-emailus{
+    margin-top: 20px;
+    background-color: #323641;
+    color:aliceblue;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport; 
+}
+.btn-slide11-line-emailus:hover{
+    color: aliceblue;
+}
+/*-----------------Ending Line3 Email us---------------------*/
+/*=================Starting Line4 Newsletter==========*/
+
+.text-and-textbox-of-slide11-for-newsletter{
+    margin-top: 30px;
+    font-family: Segan-Lightimport;
+    color: aliceblue;
+    font-size: 9px;
+    opacity: .7;
+    letter-spacing: 1px;
+}
+.email-of-newsletter-slide11{
+   margin-top: 10px; 
+    border-style: none;
+    background-color: #191828;
+    border-radius: 3px;
+    height: 30px;
+    width: 100%;
+    color: #949DE8;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-family: Segan-Lightimport; 
+}
+.btn-slide11-newsfeed{
+    width: 100%;
+     margin-top: 20px;
+    background-color: #323641;
+    color:aliceblue;
+    letter-spacing: 3px;
+    font-family: Segan-Lightimport; 
+}
+.btn-slide11-newsfeed:hover{
+    color: aliceblue;
+}
+.copyriyght-text-last-slide{
+    text-align: center;
+    margin-top: 100px;
+    color: aliceblue;
+     letter-spacing: 3px;
+    font-size: 14px;
+    font-family: Segan-Lightimport; 
+    opacity: .5;
+}

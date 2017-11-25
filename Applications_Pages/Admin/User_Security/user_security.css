@@ -1,0 +1,22 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../Assets/fonts/Segan-Light.ttf");
+}
+
+.heading-usr-sec{
+	text-align: center;
+	letter-spacing: 5px;
+	color: aliceblue;
+	margin-top: 10px;
+	 font-family:Segan-Lightimport;
+	font-size: 25px;
+}
+.para1-usr-sec{
+	text-align: center;
+	letter-spacing: 2px;
+	color: aliceblue;
+	margin-top: 10px;
+	 font-family:Segan-Lightimport;
+	font-size: 12px;
+	opacity: .7;
+}

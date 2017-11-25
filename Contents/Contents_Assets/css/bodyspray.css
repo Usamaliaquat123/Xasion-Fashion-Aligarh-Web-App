@@ -1,0 +1,127 @@
+@font-face{
+    font-family:papyrus-import;
+    src:url("../fonts/papyrus.ttf");
+}
+
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+@font-face{
+    font-family:Nirmala-UI-Semilight;
+  src:url("../fonts/NirmalaSemilight.tff");
+}
+
+.background-image{
+	background-image:url(../images/bodyspray/background.jpg);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+}
+.Heading-main-bodyspray{
+	color: aliceblue;
+   text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family:Segan-Lightimport;
+    margin-top: 56%;
+  
+}
+.background-slide-2{
+    background-color: #1C1C1E;
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+}
+.last-slide-credits{
+     background-color: #131111;
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 72px;
+}
+.See-down-btn{
+	 margin-left: 25%;
+	margin-top: 5%;
+	 width: 50%;
+ border: 0.5px solid transparent;
+    padding: 10px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+    background-color: #1C1C1E;
+}
+.para{
+	text-align: center;
+    letter-spacing: 5px;
+    font-family:Segan-Lightimport;
+    margin-top: 5px;
+    color: aliceblue;
+	font-size: 12px;
+	
+}
+.Heading-content{
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    font-size: 20spx;
+    margin-top: 10px;
+    opacity: .7;
+}
+.para-DandG{
+    color: aliceblue;
+    text-align: center;
+     font-family:Segan-Lightimport;
+    letter-spacing: 3px;
+    opacity: .7;
+
+}
+
+
+.buy-now-btn{
+
+	 width: 100%;
+    border: 0.5px solid aliceblue;
+    padding: 05px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+   
+}
+.See-more-btn {
+    margin-top: 20px;
+   border: 0.5px solid aliceblue;
+    padding: 10px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.content-credit{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    opacity: .6;
+}
+.trans-prfume-png{
+	margin-top: 50%;
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+@font-face{
+    
+	font-family:Segan-Lightimport;
+    src:url("../Assets/fonts/Segan-Light.ttf");
+}
+
+
+.Heading-subs{
+	color: aliceblue;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 25px;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	opacity: .4;
+}
+.name-user{
+	color: aliceblue;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 12px;
+	margin-top: 10px;
+	font-family:Segan-Lightimport;
+	opacity: .4;
+}

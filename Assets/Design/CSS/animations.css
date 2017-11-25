@@ -1,0 +1,103 @@
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+.fade-in-animations{
+    animation: fade-in-anim 2s;
+}
+
+@keyframes fade-in-anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes animation-line0-signup-page{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+
+/*============================CATEGORIES ANIMATION====================================*/
+
+
+/*------------------------LEFT ANIMATION OVERLAY----------------------------------*/
+.image-anim-box-slide-5{
+    position: relative;
+    overflow: hidden;
+}
+.image-anim-box-slide-5 img{
+    width: 300px;    
+}
+.opacity-text-animation{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 150px;
+    background: rgba(38,38,38,.9);
+    transition: .5s;
+}
+.opacity-text-animation p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 65px;
+    left: 140px;
+    font-size: 18px;
+    transition: .5s;
+    transform: translateX(-50%) translateY(-50%);
+    color: #dfd6d6;
+     font-family: 'Segan-Lightimport' ;
+    letter-spacing: 5px;
+    
+}
+.image-anim-box-slide-5:hover .opacity-text-animation{
+    left: 0%;
+}
+
+/*-------------------------ENDING LEFT ANIMATION OVERLAY---------------------------*/
+
+
+
+/*---------------------------------MAKING SLIDER------------------------------------------*/
+/*
+
+ animate slider 
+@keyframes slider{
+    0% { left: 0; }
+    35%{ left: 0; }
+    40%{ left: -100%;}
+    70%{ left: -100%;}
+    75%{ left: -200%;}
+    100%{ left: -200%;}
+   
+}
+
+
+
+
+.slider{
+    overflow: hidden;
+}
+.slider figure img{
+    width: 20%;
+    min-height: 655px;
+    float: left;
+    
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+  
+*/

@@ -1,0 +1,145 @@
+/*
+.background-image-developer{
+	background-image: url(../images/developer/main.jpg);
+	 max-width: 100;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+}
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
+
+
+
+/*
+.body-mine{
+	background: #424B54;
+	width: 100%;
+	height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+}
+*/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-temp {
+	margin-top: 30%;
+     border: none;
+	text-align: center;
+ }
+
+/*
+.tooltip {
+  position: relative;
+  background-color: rgb(255, 52, 102);
+  padding: 5px 12px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 100%;
+  color: #FFF;
+	width: 2%;
+	text-align: center;
+}
+*/
+
+
+
+.hello {
+  border-radius: 50%;
+  background-color: rgb(255, 52, 102);
+  width: 3%;
+  height: 8%;
+   padding: 23px 35px;
+	color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  content: '';
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+/*
+
+.tooltip:before {
+  border-width: 10px 8px 0 8px;
+  border-style: solid;
+  border-color: #ff3466 transparent transparent transparent;
+  top: -15px;
+   transform: translateY(20px);
+}
+*/
+
+/*
+.tooltip:after {
+  content: attr(data-tooltip);
+  background: #ff3466;
+  width: 160px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  top: -75px;
+  left: -10px;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transform: translateY(20px);
+}
+*/
+
+/*
+.tooltip:hover::before,
+.tooltip:hover::after {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+*/
+
+/*
+@keyframes shake {
+  0% { 
+    transform: rotate(2deg);
+  }
+  50% {
+   transform: rotate(-3deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+*/
+
+
+/*
+#anim:hover {
+  animation: shake 500ms ease-in-out forwards;
+}
+*/

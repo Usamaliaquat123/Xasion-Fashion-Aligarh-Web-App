@@ -1,0 +1,40 @@
+/*=====================IMPORTING THE FONTS ==========================*/
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");}
+/*====================SETTING BACKGROUND IMAGES======================*/
+.background-image{
+    background-image: url(../images/signin/2.jpg);
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+}
+/*==================SETTING BACKGROUND ALLIGMENT======================*/
+.line0{
+     margin-top: 200px;
+     border: 1px solid #D94255;
+     animation: animation-line0-signup-page 2s;
+}
+.line1{
+     margin-top: 50px;
+     border: 1px solid #D94255;
+     animation: animation-line0-signup-page 1s;
+}
+/*==================SETTING TEXT ALIGMENT==============================*/
+.text-allign-setting{
+    text-align: center;
+    font-style: Segan-Lightimport;
+    font-size: 15px;
+}
+.headingtext-new-users{
+    text-align: center;
+    font-style: Segan-Lightimport;
+    font-size: 30px;
+/*    color: yellow;*/
+    letter-spacing: 2px;
+}

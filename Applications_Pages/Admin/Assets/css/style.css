@@ -1,0 +1,116 @@
+@font-face{
+    font-family:teen-lightimport;
+    src:url("../fonts/teen.ttf")
+}
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+@font-face{
+    font-family:papyrus-import;
+    src:url("../fonts/papyrus.ttf");
+}
+/*---------Top sessions---------*/
+.line{
+    margin-top: -1px;    
+    margin-left: -15px;
+/*    width: 100%;*/
+    color: black;
+/*    opacity: .2;*/
+}
+.Header {
+  background-color: #111111;
+  position: absolute;
+  left: 20%;
+  opacity: .9;
+  top: 0px;
+  width: 80%;
+  height: 57px;
+ 
+}
+.fade-in-animations{
+    animation: fade-in-anim 2s;
+}
+
+@keyframes fade-in-anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.Heading-Dashboard-Header{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: aliceblue;
+    letter-spacing: 5px;
+    opacity: .5;
+    text-decoration: none;
+}
+.Heading-Dashboard:hover{
+    text-decoration: none;
+}
+.Admin-logo{
+/*    text-align: center;*/
+   margin-top: 16px;
+
+   
+}
+
+
+.logo {
+
+    text-align: center;
+    
+    margin-top: 20px;
+    font-family:papyrus-import;
+    color: aliceblue;
+    font-size: 15px;
+/*    opacity: .5;*/
+    letter-spacing: 2px;
+}
+.setting_logo {
+  background-color: #111111;
+  position: absolute;
+  left: 0px;
+    opacity: .9;
+  top: 0px;
+  width: 20%;
+  height: 57px;
+  z-index: 3;
+}
+/*---------Content sessions---------*/
+
+.Content-session {
+  background-color:rgba(17, 17, 17, 0.7) ;
+  position: absolute;
+  left: 55px;
+  top: 56px;
+  width: 94.5%;
+  height: 1155px;
+   
+    
+}
+.background{
+    background-image: url(../images/1.jpg);
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 1210px;
+}
+
+
+.Admin-Name{
+    text-align: right;
+}
+/*---------Menu sessions---------*/
+
+
+
+/*---------Menu icons sessions---------*/

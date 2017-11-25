@@ -1,0 +1,181 @@
+@font-face{
+    font-family:papyrus-import;
+    src:url("../fonts/papyrus.ttf");
+}
+
+@font-face{
+    font-family:Segan-Lightimport;
+    src:url("../fonts/Segan-Light.ttf");
+}
+@font-face{
+    font-family:Nirmala-UI-Semilight;
+  src:url("../fonts/NirmalaSemilight.tff");
+}
+
+.background-image{
+    background-image:url(../images/Watches/Background-watches.jpg);
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 672px;
+}
+.background-slide-2{
+    background-color: #1C1C1E;
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+}
+.last-slide-credits{
+     background-color: #131111;
+    height: 100%;
+    max-width: 100;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    min-height: 72px;
+}
+
+.logo{
+    text-align: left;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-family:Segan-Lightimport;
+}
+
+
+
+ul{
+    text-align: right;
+}
+.nav-menu ul {
+  list-style: none;
+  background-color: transparent;
+   text-align: right;
+  letter-spacing: 3px;
+    opacity: .8;
+    
+}
+.nav-menu li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+    height: 40px;
+
+   
+}
+ 
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-align: center;
+  transition: .3s background-color;
+}
+ 
+.nav-menu a:hover {
+  background-color: #1C1C1E;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+  .nav-menu li {
+    width: 100px;
+
+    height: 40px;
+    line-height: 50px;
+    font-size: 12px;
+  }
+  .nav-menu li {
+    display: inline-block;
+
+  }
+
+
+.heading-main{
+    color: aliceblue;
+   text-align: left;
+    font-size: 300%;
+    letter-spacing: 5px;
+    font-family:Segan-Lightimport;
+    margin-top: 30%;
+}
+.para{
+    text-align: left;
+    letter-spacing: 5px;
+    font-family:Segan-Lightimport;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.See-down-btn {
+   margin-left: 10%;
+	 width: 50%;
+ border: 0.5px solid transparent;
+    padding: 10px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+    background-color: #1C1C1E;
+    
+}
+.center{
+    margin-top: 10%;
+}
+
+.Heading-content{
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    font-size: 30px;
+    margin-top: 10px;
+    opacity: .7;
+}
+/*=================CONTENT-SECTION===============*/
+.products{
+    color: aliceblue;
+    text-align: center;
+     font-family:Segan-Lightimport;
+    letter-spacing: 3px;
+    opacity: .7;
+
+}
+
+
+.buy-now-btn{
+
+	 width: 100%;
+    border: 0.5px solid aliceblue;
+    padding: 05px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+    
+}
+.See-more-btn {
+    margin-top: 20px;
+   border: 0.5px solid aliceblue;
+    padding: 10px 20px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family:Segan-Lightimport;
+    text-align: center;
+    
+    
+}
+.content-credit{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    opacity: .6;
+}
