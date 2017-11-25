@@ -54,7 +54,7 @@ http://localhost/%Project folder name%/
 * [jQuery](https://jquery.com/) - Managing live getting and sending response.
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Usamaliaquat123/Xasion-Fashion-Aligarh-Web-App/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Usamaliaquat123/Xasion-Fashion-Aligarh-Web-App/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 Versions
