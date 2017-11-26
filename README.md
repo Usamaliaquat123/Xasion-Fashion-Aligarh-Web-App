@@ -70,7 +70,7 @@ See also the list of [contributors](https://github.com/Usamaliaquat123/Xasion-Fa
 
 ## License
 
-This project is licensed under the MIT License . See [License](https://github.com/Usamaliaquat123/Xasion-Fashion-Aligarh-Web-App-/blob/master/LICENSE) for details.
+This project is licensed under the MIT License . See [License](https://github.com/Usamaliaquat123/Xasion-Fashion-Aligarh-Web-App/blob/master/LICENSE) for details.
 
 ## Acknowledgments
 
